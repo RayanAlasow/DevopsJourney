@@ -1,0 +1,17 @@
+# Secrets and credentials
+*.pem
+*.key
+*.env
+.env
+.env.*
+*.crt
+*.p12
+
+# AWS / Terraform
+.aws/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# OS junk
+.DS_Store
