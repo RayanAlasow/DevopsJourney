@@ -1,0 +1,6 @@
+Notes/tips for aws 
+
+- Creating instances on the CLI
+the sequence is always: key pair → AMI lookup → your IP →create the security group + add the rule → run-instances → wait for running → SSH in.
+
+-
