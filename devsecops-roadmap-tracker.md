@@ -85,17 +85,17 @@
 - [x] Can explain the `2>/dev/null` redirect reasoning
 
 **Task 2 — Own a box from the CLI only**
-- [ ] Ubuntu Server launched via AWS CLI (not console)
-- [ ] SSH in with key pair
-- [ ] Noted what AWS handled for you (DHCP, DNS, route, firewall)
+- [x] Ubuntu Server launched via AWS CLI (not console)
+- [x] SSH in with key pair
+- [x] Noted what AWS handled for you (DHCP, DNS, route, firewall)
 - [ ] Security group vs `ufw` understood
 - [ ] Local VM install from ISO done too
 - [ ] Static IP set at console; SSH in from host
 - [ ] Compared local vs EC2 setup gaps
-- [ ] Non-root user created, added to `sudo`
+- [x] Non-root user created, added to `sudo`
 - [ ] `/etc/passwd`, `/etc/shadow`, `/etc/group` explained
-- [ ] `chmod` octal + symbolic practiced
-- [ ] `chown`, sticky bit / setuid / setgid explained
+- [x] `chmod` octal + symbolic practiced
+- [x] `chown`, sticky bit / setuid / setgid explained
 - [ ] SSH key pair generated (`ed25519`), copied with `ssh-copy-id`
 - [ ] Key-based login confirmed before touching config
 - [ ] `sshd_config` hardened (no passwords, no root login, custom port)

@@ -1,0 +1,9 @@
+Ec2 Instance startup
+
+- A server needs four things to be on a network, and AWS quietly set up all four for you: (the first 3 are handled by where handled automatically by DHCP. The firewall was handled outside in a security
+ group)
+1. an IP address
+2. a route out (a "gateway" that carries traffic beyond your local network)
+3. DNS (turning names like google.com into addresses)
+4. a firewall
+
