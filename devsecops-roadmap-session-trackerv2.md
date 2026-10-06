@@ -151,7 +151,7 @@
 - [x] AWS CLI installed locally; `aws sts get-caller-identity` works
 - [x] Stop/start instance from the CLI
 - [ ] `labup` / `labdown` alias/script written
-- [ ] Understand Elastic IP vs changing public IP; release unused EIPs
+- [x] Understand Elastic IP vs changing public IP; release unused EIPs
 
 > 💸 Treat EC2 as metered, not free. Stop the instance when done. Watch for unattached/stopped-but-attached Elastic IPs (~$3.60/mo).
 
@@ -165,10 +165,10 @@
 
 **Local tooling**
 
-- [ ] Terminal set up (WSL2+Terminal / iTerm2/Ghostty / native Linux)
-- [ ] `git`, `curl`, `jq`, `ssh` installed
-- [ ] Editor with terminal (VS Code or vim/neovim motions)
-- [ ] Password manager + 2FA on GitHub and AWS root
+- [x] Terminal set up (WSL2+Terminal / iTerm2/Ghostty / native Linux)
+- [x] `git`, `curl`, `jq`, `ssh` installed
+- [x] Editor with terminal (VS Code or vim/neovim motions)
+- [x] Password manager + 2FA on GitHub and AWS root
 
 **Notes repo**
 
@@ -208,7 +208,7 @@
 - [x] SSH in with key pair
 - [x] Noted what AWS handled for you (DHCP, DNS, route, firewall)
 - [x] Non-root user created, added to `sudo`
-- [ ] `/etc/passwd`, `/etc/shadow`, `/etc/group` fields explained
+- [x] `/etc/passwd`, `/etc/shadow`, `/etc/group` fields explained
 - [x] `chmod` octal + symbolic practiced
 - [x] `chown` practiced
 
